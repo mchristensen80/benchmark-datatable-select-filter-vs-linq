@@ -18,3 +18,11 @@ The test can be executed using the following command:
 cd tests/benchmarkDataTableSelectVsLinq.Tests
 dotnet test
 ```
+
+**Attribution**
+===============
+My sample data set is an unmodified version of a CSV data set that is provided by the government of New Zealand (stats.govt.nz).
+
+It is licensed for re-use under a Creative Commons 4.0 International Licence.
+
+See https://www.stats.govt.nz/large-datasets/csv-files-for-download/ for more details.
