@@ -12,17 +12,15 @@ public class DataTableSelectVsLinqBenchmark
     [Benchmark]
     public DataRow[] GetDataRowsUsingSelectFilter()
     {
-        var dataTable = CreateSampleDataTable();
-
-        return dataTable.Select($"Period = '{Period}'");
+        return CreateSampleDataTable()
+            .Select($"Period = '{Period}'");
     }
 
     [Benchmark]
     public DataRow[] GetDataRowsUsingLinq()
     {
-        var dataTable = CreateSampleDataTable();
-
-        return dataTable.AsEnumerable()
+        return CreateSampleDataTable()
+            .AsEnumerable()
             .Where(row => row.Field<string>("Period") == Period)
             .ToArray();
     }
