@@ -19,10 +19,24 @@ cd tests/benchmarkDataTableSelectVsLinq.Tests
 dotnet test
 ```
 
+**License**
+===========
+| Content | License |
+| ------- | ------- |
+|Source code|[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)|
+|Sample data|[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)|
+
 **Attribution**
 ===============
-My sample data set is an unmodified version of a CSV data set that is provided by the government of New Zealand (stats.govt.nz).
-
-It is licensed for re-use under a Creative Commons 4.0 International Licence.
+This repository includes a sample CSV data set that was provided by the government of New Zealand (stats.govt.nz).
 
 See https://www.stats.govt.nz/large-datasets/csv-files-for-download/ for more details.
+
+It is licensed under a 
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
